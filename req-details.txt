@@ -1,0 +1,23 @@
+#TO install django
+pip install django==4.2.10
+Installing collected packages: tzdata, sqlparse, asgiref, django
+
+#TO install DRF
+pip install djangorestframework
+Installing collected packages: pytz, djangorestframework
+
+#to create project 
+django-admin startproject
+django-admin startproject library
+cd library/
+
+#To run server
+python manage.py reunserver
+python manage.py runserver
+
+#Git commands 
+git init 
+git config --global user.name "Abbul Rehman"
+git config --global user.email "arehman22@mail.com"
+#To set branch 
+git config --global init.defaultBrach main
